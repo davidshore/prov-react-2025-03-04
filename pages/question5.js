@@ -8,8 +8,8 @@
 import React, { useState, useEffect } from "react";
 
 export default function Question5() {
-  const [width, setWidth] = useState(window.innerWidth);
-  const [height, setHeight] = useState(window.innerHeight);
+  const [width, setWidth] = useState();
+  const [height, setHeight] = useState();
 
   useEffect(() => {
     function handleResize() {

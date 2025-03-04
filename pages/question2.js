@@ -7,6 +7,8 @@
 // Under shoppinglistan ska det stå total price, med det totala priset för alla
 // varor i shoppingCart.
 
+import { useState } from "react";
+
 const initialShoppingCart = [
   { name: "Apple", price: 3, amount: 1, id: 1 },
   { name: "Banana", price: 2, amount: 1, id: 2 },
